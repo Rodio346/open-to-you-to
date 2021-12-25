@@ -12,4 +12,4 @@ time.sleep(2)
 print("all set!")
 time.sleep(time_min)
 toaster.show_toast(f"{header}", f"{text}", duration=10, threaded=True)
-while toaster.notification_active(): time.sleep(0.005)  
+while toaster.notification_active(): time.sleep(0.005)  # How long you want to show it. 
